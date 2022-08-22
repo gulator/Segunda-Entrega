@@ -1,0 +1,93 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    bottom: 0px;
+    height: 75px;    
+    margin-top: 5px;
+    background-color: black ;
+    color: antiquewhite;
+    font-size: 62.5%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+.logo{
+    height: 35px;
+}
+.imagenCar{
+    height: 500px;
+    object-fit: cover;
+        
+}
+.menuContent{
+    margin-right: 10px;
+}
+.centrado{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 5px auto;
+}
+.imagenZapa{
+    height: 25vw;
+    min-width: 110px;
+    object-fit: cover;
+    min-height: 200px;
+}
+.purchase{
+    background: linear-gradient(0deg,#36D1DC,#5B86E5);
+    border: 0px solid;
+}
+.purchase:hover{
+    background: linear-gradient(180deg,#36D1DC,#5B86E5);
+    border: 0px solid;
+}
+.producto{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    background: linear-gradient(180deg,#e9e9e9,#ffffff);
+}
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg,#d1d1d1,#ffffff);
+    margin: 0;
+}
+
+.tituloSecundario{
+    display: flex;
+    justify-content: center;    
+    margin: 15px 0px;
+
+
+}
+.locales{
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 4px #afafaf;
+    margin: 4px;
+}
+.locales p{
+    font-size: 12px;
+}
+.enviar{
+    background: #13254d;
+    color: whitesmoke;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+.contacto p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
